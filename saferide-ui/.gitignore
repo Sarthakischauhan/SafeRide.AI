@@ -25,3 +25,4 @@ yarn-error.log*
 .package-lock.json
 README.md
 public/vid_sample.mp4
+.publish.py

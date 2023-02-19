@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Stream.css";
+import Viewer from '../Viewer/Viewer';
 
 const Stream = () => {
   return (
@@ -9,7 +10,9 @@ const Stream = () => {
             <h4>There is a <span>67%</span> chance of a conflict</h4>
         </div>
         <div className='video'>
-            <video id="vidstream"><source src="vid_sample.mp4" type="video/mp4" /></video>
+            {/* <Viewer /> */}
+            {/* <video id="vidstream" /> */}
+            <img src={"/stream"} id="vidstrean" />
         </div>
         <div className="transcript">
             <h1>Transcript for the video</h1>
